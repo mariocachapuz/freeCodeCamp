@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    margin-bottom: 2.5rem;
+}
+main .row {
+    margin-bottom: 2.5rem;
+}
+.jumbotron {
+  background-image: url("./img/03b&w.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  box-shadow: 1px 3px 10px 3px #ccc;
+  margin-bottom: 2.5rem;
+}
+.display-3 {
+  font-family: "Bungee", sans-serif;
+  padding-top: 200px;
+  padding-left: 450px;
+}
+.jumbo-container > h3 {
+  font-family: "Bungee", sans-serif;
+  padding-left: 450px;
+}
+.jumbo-container > p {
+  padding-left: 450px;
+}
+.jumbo-buttons {
+  margin-left: 450px;
+}
+.btn {
+    width: 20rem;
+}
+section {
+    margin: 0 auto;
+    width: 550px;
+}
+section ul {
+    line-height: 2;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    min-height: 100vh;
+  }
+  .jumbo-container {
+    margin-top: 30rem;
+  }
+  .display-3,
+  .jumbo-container h3,
+  .jumbo-container p {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 2em;
+    color: #fff;
+  }
+  .display-3 {
+    font-size: 2.5em;
+  }
+  .jumbo-buttons {
+    margin: 0;
+    text-align: center;
+    display: flex;
+  }
+  .btn {
+    width: 100%;
+    margin: 0 0.1em;
+    }
+   main h2 {
+    text-align: center;
+    font-size: 3.5em;
+    }
+   main .btn {
+    height: 2.5rem;
+    }
+   section {
+    width: 100%;
+    scroll-behavior: smooth;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .jumbo-container {
+    margin-top: 30rem;
+  }
+  .display-3,
+  .jumbo-container h3,
+  .jumbo-container p {
+    display: block;
+    padding: 0;
+    margin-top: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+  }
+  .display-3 {
+    font-size: 3em;
+  }
+  .jumbo-buttons {
+    margin: 0;
+    text-align: center;
+    display: flex;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 0 0.1em;
+  }
+  main h2 {
+    text-align: center;
+    font-size: 3.5em;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .display-3 {
+    font-size: 1.7em;
+  }
+  .jumbo-container h3,
+  .jumbo-container p {
+    font-size: 1.7em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .display-3 {
+    font-size: 3em;
+  }
+  .jumbo-container h3,
+  .jumbo-container p {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .display-3 {
+    font-size: 4.5em;
+  }
+  .jumbo-container h3,
+  .jumbo-container p {
+    font-size: 3em;
+  }
+}
