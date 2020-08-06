@@ -50,7 +50,7 @@ section ul {
     min-height: 100vh;
   }
   .jumbo-container {
-    margin-top: 27.9rem;
+    margin-top: 27.5rem;
   }
   .display-3,
   .jumbo-container h3,
@@ -120,22 +120,54 @@ section ul {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .display-3 {
-    font-size: 1.7em;
+  .jumbo-container {
+    margin-top: 20rem;
   }
+  .display-3,
   .jumbo-container h3,
   .jumbo-container p {
-    font-size: 1.7em;
+    display: block;
+    padding: 0;
+    margin-top: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .jumbo-buttons {
+    margin: 0;
+    text-align: center;
+    display: flex;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 0 0.1em;
   }
 }
 
-@media only screen and (min-width: 992px) {
-  .display-3 {
-    font-size: 3em;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .jumbo-container {
+    margin-top: 25rem;
   }
+  .display-3,
   .jumbo-container h3,
   .jumbo-container p {
-    font-size: 2em;
+    display: block;
+    padding: 0;
+    margin-top: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .jumbo-buttons {
+    margin: 0;
+    text-align: center;
+    display: flex;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 0 0.1em;
   }
 }
 
