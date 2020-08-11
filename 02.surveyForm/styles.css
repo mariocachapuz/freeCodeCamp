@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: linear-gradient(to top, #bbd2c5, #536976, #292e49);
+  text-align: center;
+  margin: 0;
+}
+
+form {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  padding: 30px 20px;
+  max-width: 950px;
+  margin: 3vh auto;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+#lang-label {
+    display: block;
+    text-align: start;
+}
+
+.lang-form {
+    display: inline-block;
+}
+.lang1, .lang2 {
+    width: 450px;
+}
+
+button {
+  background-color: #292e49;
+  width: 100%;
+  padding: 10px;
+  display: block;
+  border: none;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 1.5em;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.7s ease;
+}
+
+button:hover {
+  background-color: #bbd2c5;
+  color: #000;
+}
+textarea {
+  font-family: inherit;
+  resize: none;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mario Cachapuz" />
+    <meta name="description" content="A survey form" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Programming Survey</h1>
+    <p id="description">
+      Let us know more about you. Please take a few minutes to complete this
+      survey about programming.
+    </p>
+
+    <form action="" id="survey-form">
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+    
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+ 
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="number" id="age" placeholder="Enter your age" required min="0" max="150">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">Which option best describes your current role?</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="full-time">Full-time</option>
+                <option value="part-time">Part-time</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Which position are you interested to apply for?</label>
+            <label for="front"><input type="radio" id="front" name="position"/>Front-End Developer</label>
+            <label for="back"><input type="radio" id="back" name="position" />Back-End Developer</label>
+            <label for="full"><input type="radio" id="full" name="position" />Full Stack Developer</label>
+        </div>
+
+        <label id="lang-label">Which of the following would you like to learn? <small>(Check all that apply)</small> </label>
+        <div class="form-control lang-form">
+          <div class="lang1">
+            <label for="lang1"><input type="checkbox" name="lang" id="lang1">HTML</label>
+            <label for="lang2"><input type="checkbox" name="lang" id="lang1">CSS</label>
+            <label for="lang3"><input type="checkbox" name="lang" id="lang1">Javascript</label>
+            <label for="lang4"><input type="checkbox" name="lang" id="lang1">Python</label>
+            <label for="lang5"><input type="checkbox" name="lang" id="lang1">Java</label>
+            <label for="lang6"><input type="checkbox" name="lang" id="lang1">C#</label>
+          </div>
+        </div>
+
+        <div class="form-control lang-form">
+          <div class="lang2">
+            <label for="lang7"><input type="checkbox" name="lang" id="lang2">Kotlin</label>
+            <label for="lang8"><input type="checkbox" name="lang" id="lang2">React</label>
+            <label for="lang9"><input type="checkbox" name="lang" id="lang2">Angular</label>
+            <label for="lang10"><input type="checkbox" name="lang" id="lang2">Vue</label>
+            <label for="lang11"><input type="checkbox" name="lang" id="lang2">SQL</label>
+            <label for="lang12"><input type="checkbox" name="lang" id="lang2">PHP</label>
+          </div>
+        </div>
+
+        <div class="form-control">
+          <label for="comments">Any comments or suggestions?</label>
+          <textarea name="comments" id="comments" placeholder="Enter your comment here"></textarea>
+        </div>
+
+        <button type="submit" value="submit">Submit</button>
+    </form>
+  </body>
+</html>
