@@ -6,4 +6,4 @@ Responsive Web Design Projects
 02. Survey Form - Vanilla CSS
   * https://mariocachapuz.github.io/freeCodeCamp/02.surveyForm/index.html
 03. Product Landing Page - Vanilla CSS
-  * https://mariocachapuz.github.io/freeCodeCamp/03.productLandingPage/index.html
+  * https://mariocachapuz.github.io/freeCodeCamp/3.productLandingPage/index.html
