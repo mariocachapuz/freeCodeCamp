@@ -172,7 +172,8 @@ footer {
     
     header {
         margin: 1rem 0;
-
+    }
+    
     footer {
         display: flex;
         border-top: 1px solid #ccc;
