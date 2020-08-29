@@ -169,6 +169,9 @@ footer {
     #main-doc ul {
         margin: 2rem;
     }
+    
+    header {
+        margin: 1rem 0;
 
     footer {
         display: flex;
