@@ -9,3 +9,5 @@ Responsive Web Design Projects
   * https://mariocachapuz.github.io/freeCodeCamp/3.productLandingPage/index.html
 04. Technical Documentation Page - Vanilla CSS + JS
   * https://mariocachapuz.github.io/freeCodeCamp/4.technicalDocumentationPage/index.html
+05. Portfolio
+  * https://mariocachapuz.github.io/freeCodeCamp/5.portfolio/index.html
