@@ -97,6 +97,7 @@ p { font-size: 1.5em; line-height: 1.5; }
     column-gap: 100px;
     row-gap: 15px;
 }
+
 #item { 
     background-color: rgba(var(--main-color), var(--noopac));
     color: #fff;
@@ -113,6 +114,15 @@ p { font-size: 1.5em; line-height: 1.5; }
     flex-direction: column;
     align-items: center;
     height: 100vh;
+}
+
+#project a {
+    text-decoration: none;
+    color: rgba(var(--main-color), var(--noopac));
+}
+
+#project a:hover {
+    text-decoration: underline  ;
 }
 
 .project-items, .contact-items {
@@ -166,6 +176,10 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     nav {
         display: flex;
         align-items: center;
@@ -202,11 +216,26 @@ footer {
         text-align: right;
         width: 150px;
     }
-    .about-me-items,
-    .project-items,
-    .contact-items {
+
+    .about-me-items {
+        margin-top: 5.5rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: .5em;
+        grid-template-columns: 120px 120px 120px;
+        grid-template-rows: 100px 100px 100px; 
+        column-gap: 25px;
+        row-gap: 15px;
+        cursor: pointer;
     }
+
+    .project-items, .contact-items {
+        margin-top: 5.5rem;
+        display: grid;
+        grid-template-columns: 175px 175px;
+        grid-template-rows: 150px 150px; 
+        column-gap: 25px;
+        row-gap: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+
 }
